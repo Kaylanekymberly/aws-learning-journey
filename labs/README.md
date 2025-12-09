@@ -1,0 +1,15 @@
+# 🧪 Laboratórios Práticos AWS
+
+Aqui documento todos os labs práticos que realizo durante meu aprendizado.
+
+## 📝 Lista de Labs
+
+| # | Nome do Lab | Data | Status |
+|---|-------------|------|--------|
+| 01 | Criando instância EC2 | - | 🔄 Em progresso |
+| 02 | Configurando bucket S3 | - | ⏳ Pendente |
+| 03 | Criando banco RDS | - | ⏳ Pendente |
+
+---
+
+💡 Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
