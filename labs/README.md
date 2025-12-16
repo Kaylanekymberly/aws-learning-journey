@@ -9,7 +9,7 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 01 | Criando instância EC2 | - | 🔄 Em progresso |
 | 02 | Configurando bucket S3 | - | ⏳ Pendente |
 | 03 | Criando banco RDS | - | ⏳ Pendente |
-
+| 04 | Criar VPC e Servidor Web | 15/12/2025 | ✅ Concluído |
 ---
 
 💡 Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
