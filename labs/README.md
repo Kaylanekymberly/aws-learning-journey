@@ -10,6 +10,8 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 02 | Introdução ao IAM | 19/12/2025 | ✅ Concluído |
 | 03 | Criando banco RDS e Integração | 19/12/2025 | ✅ Concluído |
 | 04 | Criar VPC e Servidor Web | 15/12/2025 | ✅ Concluído |
+| 05 | Gerenciamento IAM via CLI | 26/12/2025 | ✅ Concluído |
+
 ---
 
 💡 Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
