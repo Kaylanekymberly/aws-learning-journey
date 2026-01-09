@@ -1,6 +1,6 @@
-# 🌐 Lab 04 - Criar sua VPC e Iniciar um Servidor Web
+#  Lab 04 - Criar sua VPC e Iniciar um Servidor Web
 
-## 📋 Objetivo do Laboratório
+##  Objetivo do Laboratório
 
 Depois de concluir este laboratório, você deverá ser capaz de:
 * ✅ Criar uma Virtual Private Cloud (VPC)
@@ -16,15 +16,15 @@ Depois de concluir este laboratório, você deverá ser capaz de:
 
 ---
 
-## 💪 Reflexão Pessoal
+##  Reflexão Pessoal
 
 Este laboratório foi um verdadeiro teste de **resiliência**! Durante aproximadamente **1 hora**, enfrentei diversos desafios e erros que poderiam ter me feito desistir, mas mantive o foco e a determinação.
 
 **Os desafios enfrentados:**
-- ❌ Erros de configuração de sub-redes
-- ❌ Problemas com tabelas de rotas
-- ❌ Dificuldades na associação correta das sub-redes
-- ❌ Instância EC2 sem conectividade inicial
+- Erros de configuração de sub-redes
+-  Problemas com tabelas de rotas
+-  Dificuldades na associação correta das sub-redes
+-  Instância EC2 sem conectividade inicial
 
 **A lição aprendida:**  
 > *"O erro não é o fim, é parte do processo de aprendizado. Cada erro me ensinou algo novo sobre AWS e me tornou mais preparado para os próximos desafios."*
@@ -33,11 +33,11 @@ Mesmo com as dificuldades, **não desisti** e consegui completar o laboratório 
 
 ---
 
-## 🎯 Cenário
+##  Cenário
 
 Neste laboratório, você usará a Amazon Virtual Private Cloud (VPC) para criar sua própria VPC e adicionar componentes adicionais para produzir uma rede personalizada para um cliente Fortune 100. Você também criará grupos de segurança para sua instância EC2 e configurará um servidor web.
 
-### 🏗️ Arquitetura Final
+###  Arquitetura Final
 
 A arquitetura implementada inclui:
 - 1 VPC (10.0.0.0/16)
@@ -50,7 +50,7 @@ A arquitetura implementada inclui:
 
 ---
 
-## 🚀 Tarefa 1: Acessar o Console AWS
+##  Tarefa 1: Acessar o Console AWS
 
 ### Passo 1.1: Iniciar o Laboratório
 1. Na parte superior das instruções, escolha **Start Lab** (Iniciar laboratório)
@@ -66,7 +66,7 @@ A arquitetura implementada inclui:
 
 ---
 
-## 🌐 Tarefa 2: Criar a VPC
+##  Tarefa 2: Criar a VPC
 
 ### Passo 2.1: Acessar o Serviço VPC
 1. No console AWS, digite **VPC** na barra de pesquisa
@@ -116,7 +116,7 @@ No painel de **Visualização**, defina os nomes:
 
 ---
 
-## 🔀 Tarefa 3: Criar Sub-redes Adicionais
+##  Tarefa 3: Criar Sub-redes Adicionais
 
 Agora vamos criar sub-redes em uma segunda Zona de Disponibilidade para **alta disponibilidade**.
 
@@ -141,7 +141,7 @@ Agora vamos criar sub-redes em uma segunda Zona de Disponibilidade para **alta d
 
 ---
 
-## 🛣️ Tarefa 4: Associar Sub-redes às Tabelas de Rotas
+##  Tarefa 4: Associar Sub-redes às Tabelas de Rotas
 
 ### Passo 4.1: Configurar Tabela de Rotas Públicas
 1. No painel esquerdo, clique em **Tabelas de rotas**
@@ -162,7 +162,7 @@ Agora vamos criar sub-redes em uma segunda Zona de Disponibilidade para **alta d
 
 ---
 
-## 🔒 Tarefa 5: Criar Grupo de Segurança
+##  Tarefa 5: Criar Grupo de Segurança
 
 ### Passo 5.1: Criar Security Group
 1. No painel esquerdo, clique em **Grupos de segurança**
@@ -191,7 +191,7 @@ Adicione as seguintes regras:
 
 ---
 
-## 💻 Tarefa 6: Lançar Instância EC2
+##  Tarefa 6: Lançar Instância EC2
 
 ### Passo 6.1: Iniciar Criação da Instância
 1. Digite **EC2** na barra de pesquisa e selecione o serviço
@@ -250,7 +250,7 @@ echo "<p>Zona de Disponibilidade: $(ec2-metadata --availability-zone | cut -d ' 
 
 ---
 
-## 🧹 Tarefa 8: Limpeza (Opcional)
+##  Tarefa 8: Limpeza (Opcional)
 
 Para evitar custos, limpe os recursos:
 
@@ -261,7 +261,7 @@ Para evitar custos, limpe os recursos:
 
 ---
 
-## 📝 Resumo do que foi Criado
+##  Resumo do que foi Criado
 
 | Recurso | Nome | CIDR/Configuração |
 |---------|------|-------------------|
@@ -275,7 +275,7 @@ Para evitar custos, limpe os recursos:
 
 ---
 
-## 🎓 Conceitos Aprendidos
+##  Conceitos Aprendidos
 
 ✅ **VPC (Virtual Private Cloud):** Rede virtual isolada na AWS  
 ✅ **Sub-redes:** Divisões da VPC em redes menores  
@@ -287,7 +287,7 @@ Para evitar custos, limpe os recursos:
 
 ---
 
-## 💡 Lições Aprendidas
+##  Lições Aprendidas
 
 Durante este laboratório, aprendi que:
 
@@ -299,7 +299,7 @@ Durante este laboratório, aprendi que:
 
 ---
 
-## 📚 Próximos Passos
+##  Próximos Passos
 
 - [ ] Implementar Auto Scaling
 - [ ] Adicionar Load Balancer
@@ -314,158 +314,3 @@ Durante este laboratório, aprendi que:
 - [Documentação Amazon VPC](https://docs.aws.amazon.com/vpc/)
 - [Documentação Amazon EC2](https://docs.aws.amazon.com/ec2/)
 - [Best Practices VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-best-practices.html)
-
----
-
-**✨ Lab concluído com sucesso após 1 hora de dedicação e resiliência!**
-
----
-
-# 📤 Como Adicionar este Lab ao GitHub
-
-Você já completou o lab! Agora é só documentar tudo no GitHub. Vou te guiar passo a passo:
-
----
-
-## 🌟 MÉTODO RECOMENDADO: Pelo Site do GitHub (Mais Fácil!)
-
-### **PASSO 1: Abra seu repositório**
-1. Acesse: `https://github.com/Kaylanekymberli/aws-learning-journey`
-2. Clique na pasta **labs**
-
-### **PASSO 2: Crie o arquivo do lab**
-1. Clique no botão verde **Add file**
-2. Selecione **Create new file**
-3. No campo "Name your file", digite: **`lab-04-criar-vpc-servidor-web.md`**
-
-### **PASSO 3: Copie e cole este conteúdo**
-1. **Volte para este artifact** (a caixa ao lado)
-2. Clique no ícone de **copiar** no canto superior direito do artifact
-3. OU selecione TUDO (Ctrl+A ou Cmd+A) → Copie (Ctrl+C ou Cmd+C)
-4. **Volte para o GitHub** e cole no editor (Ctrl+V ou Cmd+V)
-
-### **PASSO 4: Faça o commit**
-Role até o final da página e preencha:
-
-**Commit message:**
-```
-Lab 04 concluído - VPC e Servidor Web ✅
-```
-
-**Descrição (opcional):**
-```
-Criação de VPC completa com 4 sub-redes
-Servidor web Apache funcionando
-Tempo: 1 hora de dedicação
-Mantive a resiliência mesmo com os erros iniciais!
-```
-
-Depois clique em **Commit new file** (botão verde)
-
-### **PASSO 5: Atualize a tabela do README**
-1. Volte para a pasta **labs** (clique em "labs" no topo)
-2. Clique no arquivo **README.md**
-3. Clique no ícone de **lápis** ✏️ (Edit this file)
-4. Procure a tabela de labs
-5. Adicione esta linha na tabela:
-
-```markdown
-| 04 | Criar VPC e Servidor Web | 15/12/2025 | ✅ Concluído |
-```
-
-6. Role até o final e faça o commit:
-   - **Mensagem:** `Atualizar README - Lab 04 completo`
-   - Clique em **Commit changes**
-
-### **🎉 PRONTO! Está documentado!**
-
----
-
-## 💻 MÉTODO ALTERNATIVO: Pelo Terminal Git
-
-Se você prefere usar o terminal:
-
-### **PASSO 1: Navegue até o repositório**
-```bash
-cd caminho/para/aws-learning-journey
-cd labs
-```
-
-### **PASSO 2: Crie o arquivo**
-```bash
-# Crie o arquivo
-nano lab-04-criar-vpc-servidor-web.md
-
-# Cole TODO o conteúdo deste artifact
-# Salve: Ctrl+X → Y → Enter
-```
-
-### **PASSO 3: Adicione e faça commit**
-```bash
-git add lab-04-criar-vpc-servidor-web.md
-
-git commit -m "Lab 04 concluído - VPC e Servidor Web ✅
-
-- Criação de VPC completa com 4 sub-redes
-- Servidor web Apache funcionando  
-- Tempo: 1 hora de dedicação
-- Mantive a resiliência mesmo com os erros iniciais"
-
-git push origin main
-```
-
-### **PASSO 4: Atualize o README**
-```bash
-nano README.md
-# Adicione a linha do Lab 04 na tabela
-# Salve: Ctrl+X → Y → Enter
-
-git add README.md
-git commit -m "Atualizar README - Lab 04 completo"
-git push origin main
-```
-
----
-
-## ✅ Checklist de Verificação
-
-Depois de fazer o upload, verifique se:
-
-- [ ] O arquivo `lab-04-criar-vpc-servidor-web.md` está na pasta `labs`
-- [ ] O README.md mostra o Lab 04 como **✅ Concluído**
-- [ ] A data está correta: **15/12/2025**
-- [ ] O commit tem uma mensagem clara e descritiva
-- [ ] Você consegue ver o arquivo quando acessa o repositório
-
----
-
-## 🎯 Resultado Final
-
-Seu repositório vai ficar assim:
-
-```
-aws-learning-journey/
-├── labs/
-│   ├── README.md (atualizado com Lab 04)
-│   ├── lab-01-introducao-console-aws.md (já existe - NÃO MEXER)
-│   ├── lab-04-criar-vpc-servidor-web.md  ← NOVO! ✨
-│   └── ...
-```
-
-E na tabela do README, você vai APENAS ADICIONAR esta linha:
-
-| **04** | **Criar VPC e Servidor Web** | **15/12/2025** | **✅ Concluído** |
-
-⚠️ **IMPORTANTE:** NÃO mexa nas outras linhas (Lab 01, 02, 03) - deixe como estão!
-
----
-
-## 💪 Isso demonstra:
-
-✅ Suas habilidades técnicas em AWS  
-✅ Sua capacidade de documentar processos  
-✅ Sua resiliência e determinação  
-✅ Seu crescimento profissional  
-✅ Sua organização e comprometimento  
-
-**Parabéns por não desistir e concluir este laboratório! Continue assim! 🚀**
