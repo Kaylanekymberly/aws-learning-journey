@@ -1,8 +1,8 @@
 # Introdução ao IAM (Identity and Access Management)
 
-> 📚 **Créditos**: Este laboratório foi desenvolvido baseado no programa **AWS Academy Cloud Foundations**. Todos os direitos do conteúdo educacional pertencem à Amazon Web Services (AWS).
+>  **Créditos**: Este laboratório foi desenvolvido baseado no programa **AWS Academy Cloud Foundations**. Todos os direitos do conteúdo educacional pertencem à Amazon Web Services (AWS).
 
-## 🚀 Descrição do Laboratório
+##  Descrição do Laboratório
 
 Neste laboratório prático, explorei os fundamentos do gerenciamento de identidades e acessos na AWS, com foco na **AWS CLI** (Command Line Interface). O objetivo principal foi aplicar o **Princípio do Menor Privilégio (PoLP)** e desenvolver habilidades de automação através da linha de comando.
 
@@ -12,7 +12,7 @@ Demonstrar a capacidade de gerenciar recursos IAM via AWS CLI em ambiente Linux,
 
 ---
 
-## 🛠️ Recursos e Tecnologias Utilizadas
+##  Recursos e Tecnologias Utilizadas
 
 ### Conceitos IAM Explorados
 - **Usuários IAM**: Criação de identidades para pessoas
@@ -27,7 +27,7 @@ Demonstrar a capacidade de gerenciar recursos IAM via AWS CLI em ambiente Linux,
 - **Linguagens**: JSON, Bash
 - **Protocolos**: SSH para conexão remota segura
 
----
+
 
 ## 🔒 Segurança da Informação (Best Practices)
 
@@ -41,7 +41,7 @@ Em conformidade com as melhores práticas de segurança em nuvem, **todos os dad
 
 ---
 
-## 📋 Passo a Passo do Laboratório
+##  Passo a Passo do Laboratório
 
 ### Tarefa 1: Conexão Segura via SSH 🔐
 
@@ -80,7 +80,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 ---
 
-### Tarefa 2: Instalação da AWS CLI v2 📦
+### Tarefa 2: Instalação da AWS CLI v2 
 
 **Objetivo**: Instalar a interface de linha de comando da AWS no Red Hat Linux.
 
@@ -109,7 +109,7 @@ aws-cli/2.7.24 Python/3.8.8 Linux/4.14.133-113.105.amzn2.x86_64 botocore/2.4.5
 
 ---
 
-### Tarefa 3: Auditoria do IAM via Console Web 🔍
+### Tarefa 3: Auditoria do IAM via Console Web 
 
 **Objetivo**: Observar a estrutura de políticas IAM no Console de Gerenciamento antes de migrar para a CLI.
 
@@ -123,8 +123,7 @@ aws-cli/2.7.24 Python/3.8.8 Linux/4.14.133-113.105.amzn2.x86_64 botocore/2.4.5
 **Aprendizado**: Essa visualização prévia foi fundamental para entender o formato esperado na extração via CLI posteriormente.
 
 ---
-
-### Tarefa 4: Configuração de Credenciais ⚙️
+### Tarefa 4: Configuração de Credenciais 
 
 **Objetivo**: Configurar a AWS CLI com credenciais de acesso à conta.
 
@@ -144,7 +143,7 @@ Default output format [None]: json
 ![Configuração AWS CLI](./images/aws-configure.png)
 *Figura 2: Processo de configuração da AWS CLI (credenciais ofuscadas por segurança)*
 
-#### Segundo Desafio Encontrado ⚠️
+#### Segundo Desafio Encontrado 
 
 Inicialmente, **digitei a região errada** (`us-east-1` ao invés de `us-west-2`). 
 
@@ -154,7 +153,7 @@ Inicialmente, **digitei a região errada** (`us-east-1` ao invés de `us-west-2`
 
 ---
 
-### Tarefa 5: Gerenciamento de Políticas via CLI 🎯
+### Tarefa 5: Gerenciamento de Políticas via CLI 
 
 **Objetivo**: Extrair a política `lab_policy` em formato JSON usando apenas a linha de comando.
 
@@ -222,16 +221,16 @@ O arquivo continha exatamente o mesmo JSON visualizado no Console! 🎉
 
 ### Habilidades Técnicas Desenvolvidas
 
-- ✅ Gerenciamento de identidades e acessos na AWS
-- ✅ Utilização avançada da AWS CLI (filtros, queries, pipe)
-- ✅ Conexão remota segura via SSH
-- ✅ Manipulação de arquivos JSON em Linux
-- ✅ Boas práticas de segurança em cloud computing
-- ✅ Leitura e interpretação de documentação técnica
+- Gerenciamento de identidades e acessos na AWS
+- Utilização avançada da AWS CLI (filtros, queries, pipe)
+- Conexão remota segura via SSH
+- Manipulação de arquivos JSON em Linux
+- Boas práticas de segurança em cloud computing
+- Leitura e interpretação de documentação técnica
 
 ---
 
-## 🎓 Reflexões sobre os Desafios
+##  Reflexões sobre os Desafios
 
 ### O Que Aprendi com os Obstáculos
 
@@ -247,15 +246,15 @@ O arquivo continha exatamente o mesmo JSON visualizado no Console! 🎉
 
 ---
 
-## 🎯 Conclusão
+##  Conclusão
 
 Este laboratório demonstrou que a **AWS CLI** é uma ferramenta indispensável para profissionais de cloud, permitindo:
 
-- 🔄 **Automação** de tarefas repetitivas
-- 📊 **Auditorias** rápidas de permissões
-- 🔄 **Replicação** de configurações entre ambientes
-- 📝 **Versionamento** de políticas como código (GitOps)
-- ⚡ **Velocidade** em operações que seriam lentas via Console
+- **Automação** de tarefas repetitivas
+- **Auditorias** rápidas de permissões
+- **Replicação** de configurações entre ambientes
+- **Versionamento** de políticas como código (GitOps)
+- **Velocidade** em operações que seriam lentas via Console
 
 ### Impacto Profissional
 
@@ -267,7 +266,7 @@ As competências adquiridas são diretamente aplicáveis em:
 
 ---
 
-## 📚 Referências Utilizadas
+## Referências Utilizadas
 
 Durante o laboratório, consultei ativamente:
 
@@ -278,24 +277,24 @@ Durante o laboratório, consultei ativamente:
 
 ---
 
-## 🏆 Certificação
+##  Certificação
 
 Este laboratório faz parte do programa **AWS Academy Cloud Foundations**, preparando para a certificação:
 
-- 📜 **AWS Certified Cloud Practitioner** (CLF-C02)
+-  **AWS Certified Cloud Practitioner** (CLF-C02)
 
 ---
 
-## 👤 Autor
+##  Autor
 
 **Kaylane Kimberly**
 
-🎯 Entusiasta de Cloud Computing | Estudante AWS  
+ Entusiasta de Cloud Computing | Estudante AWS  
 🔗 [LinkedIn](https://www.linkedin.com/feed/) | 💼 [Portfolio](https://github.com/Kaylanekymberly/Kaylanekymberly) | 📧 [Email](kaylanekymberly123@gmail.com)
 
 ---
 
-## 📄 Licença e Direitos Autorais
+##  Licença e Direitos Autorais
 
 - **Conteúdo do Laboratório**: © Amazon Web Services (AWS) - AWS Academy
 - **Documentação e Análise**: Desenvolvida como material de estudo pessoal
