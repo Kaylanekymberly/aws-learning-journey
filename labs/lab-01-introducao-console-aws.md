@@ -3,12 +3,12 @@
 ## 📅 Data
 09 de Dezembro de 2025
 
-## 🎯 Objetivo
+##  Objetivo
 Familiarizar-me com a interface do Console AWS e entender a navegação básica, além de compreender conceitos fundamentais de infraestrutura em nuvem.
 
 ---
 
-## 🛠️ O que eu fiz
+##  O que eu fiz
 
 ### 1. Login no Console
 - ✅ Acessei o Console AWS em https://console.aws.amazon.com
@@ -73,7 +73,7 @@ Regiões são localizações geográficas físicas ao redor do mundo onde a AWS 
 
 ---
 
-#### 💰 Free Tier
+####  Free Tier
 
 **O que é?**  
 Programa da AWS que permite usar diversos serviços **gratuitamente** por 12 meses após criar a conta, mais alguns serviços sempre gratuitos.
@@ -108,7 +108,7 @@ Programa da AWS que permite usar diversos serviços **gratuitamente** por 12 mes
 
 ---
 
-#### 🔐 IAM - Identity and Access Management
+####  IAM - Identity and Access Management
 
 **O que é?**  
 Sistema de gerenciamento de permissões e acessos da AWS. É o "guarda de segurança" da sua conta.
@@ -165,7 +165,7 @@ Sistema de gerenciamento de permissões e acessos da AWS. É o "guarda de segura
 
 ---
 
-## 📸 Prints
+##  Prints
 
 Para adicionar prints de tela no seu repositório GitHub:
 
@@ -265,7 +265,7 @@ lab01-explorando-console/
 
 ---
 
-## 🎯 Metas de Estudo
+##  Metas de Estudo
 
 **Curto Prazo (1-2 semanas):**
 - Completar 5 labs práticos
@@ -278,7 +278,7 @@ lab01-explorando-console/
 - Fazer 3 simulados (meta: 80%+ de acerto)
 
 **Longo Prazo (2-3 meses):**
-- 🎯 **AGENDAR PROVA AWS Cloud Practitioner**
+-  **AGENDAR PROVA AWS Cloud Practitioner**
 - Construir projeto completo documentado no GitHub
 - Conseguir a certificação! 🏆
 
@@ -291,7 +291,7 @@ lab01-explorando-console/
 
 ---
 
-## 📝 Notas Pessoais
+##  Notas Pessoais
 
 *"Fiquei impressionado com a quantidade de serviços disponíveis! O console é mais intuitivo do que eu pensava. A parte de IAM parece complexa, mas entendi a importância de começar com segurança desde o início. Próximo passo: colocar a mão na massa criando uma instância EC2!"*
 
