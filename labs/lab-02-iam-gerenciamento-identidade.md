@@ -3,13 +3,13 @@
 ## 📌 Descrição do Laboratório
 Neste laboratório, explorei os fundamentos do gerenciamento de identidades na AWS. O objetivo foi aplicar o **Princípio do Menor Privilégio (PoLP)**, garantindo que usuários tenham apenas as permissões necessárias para realizar suas tarefas.
 
-## 🛠️ Recursos Utilizados
+##  Recursos Utilizados
 * **Usuários IAM:** Criação de identidades para pessoas.
 * **Grupos IAM:** Organização de usuários com permissões comuns.
 * **Políticas (Policies):** Definição de permissões usando JSON.
 * **Políticas Gerenciadas pela AWS:** Uso de permissões pré-definidas (ex: `ReadOnlyAccess`).
 
-## 📖 Passo a Passo Realizado
+##  Passo a Passo Realizado
 
 ### 1. Criação de Grupos e Usuários
 * Criei um grupo chamado `Suporte-Nivel-1`.
@@ -25,7 +25,7 @@ Neste laboratório, explorei os fundamentos do gerenciamento de identidades na A
 * Tentei visualizar instâncias EC2 (Sucesso ✅).
 * Tentei criar um novo bucket S3 (Erro de Permissão Negada ❌ - Conforme esperado).
 
-## 🛡️ Conceitos Chave Aprendidos
+##  Conceitos Chave Aprendidos
 * **Root User vs IAM User:** Nunca usar o usuário raiz para tarefas diárias.
 * **Políticas JSON:** Como a AWS lê permissões (Allow/Deny).
 * **Segurança:** A importância de habilitar MFA (Multi-Factor Authentication).
