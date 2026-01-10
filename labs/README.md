@@ -12,6 +12,6 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 04 | Criar VPC e Servidor Web | 15/12/2025 | ✅ Concluído |
 | 05 | Gerenciamento IAM via CLI | 26/12/2025 | ✅ Concluído |
 | 05 | AWS CLI e IAM          | 10/01/2026] | ✅ Concluído |
----
+| 06 | S3 Static Website | 10/01/2026 | ✅ Concluído |
 
 💡 Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
