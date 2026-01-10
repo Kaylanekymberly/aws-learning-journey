@@ -1,8 +1,8 @@
-# 📚 Anotações e Conceitos
+#  Anotações e Conceitos
 
 Resumos dos principais conceitos de AWS que estou estudando.
 
-## 📖 Conteúdo
+##  Conteúdo
 
 - [Fundamentos de Cloud Computing](fundamentos-cloud.md)
 - [Modelos de Serviço (IaaS, PaaS, SaaS)](modelos-servico.md)
@@ -12,4 +12,4 @@ Resumos dos principais conceitos de AWS que estou estudando.
 
 ---
 
-🎯 Material de apoio para estudos e revisões
+ Material de apoio para estudos e revisões
