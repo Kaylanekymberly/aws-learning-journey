@@ -1,10 +1,10 @@
-# ☁️ Fundamentos de Cloud Computing
+#  Fundamentos de Cloud Computing
 
 ## O que é Cloud Computing?
 
 Cloud Computing (Computação em Nuvem) é a entrega de recursos de computação pela internet, incluindo servidores, armazenamento, bancos de dados, redes, software e análises.
 
-## 🎯 Benefícios da Cloud
+##  Benefícios da Cloud
 
 ### 1. **Economia de Custos**
 - Sem investimento inicial em hardware
@@ -27,7 +27,7 @@ Cloud Computing (Computação em Nuvem) é a entrega de recursos de computação
 - Infraestrutura protegida
 - Compliance com padrões internacionais
 
-## 📊 Modelos de Serviço
+##  Modelos de Serviço
 
 ### IaaS - Infrastructure as a Service
 **O que é:** Aluguel de infraestrutura de TI
@@ -64,7 +64,7 @@ Cloud Computing (Computação em Nuvem) é a entrega de recursos de computação
 **Você gerencia:** Apenas seus dados  
 **Provedor gerencia:** Tudo
 
-## 🌍 Modelos de Deploy
+##  Modelos de Deploy
 
 ### 1. **Cloud Pública**
 - Recursos compartilhados
@@ -81,7 +81,7 @@ Cloud Computing (Computação em Nuvem) é a entrega de recursos de computação
 - Flexibilidade
 - Dados sensíveis na privada, demais na pública
 
-## 💡 Conceitos Importantes
+##  Conceitos Importantes
 
 **Elasticidade:** Capacidade de aumentar/diminuir recursos automaticamente
 
@@ -91,12 +91,12 @@ Cloud Computing (Computação em Nuvem) é a entrega de recursos de computação
 
 **Disaster Recovery:** Plano para recuperação em caso de desastres
 
-## 🔗 Recursos
+##  Recursos
 
 - [AWS Cloud Concepts](https://aws.amazon.com/what-is-cloud-computing/)
 - [Documentação AWS](https://docs.aws.amazon.com)
 
 ---
 
-📝 **Última atualização:** 09/12/2025  
-✍️ **Autor:** Kaylane Kimberly
+ **Última atualização:** 09/12/2025  
+ **Autor:** Kaylane Kimberly
