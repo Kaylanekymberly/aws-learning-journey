@@ -11,10 +11,10 @@ Familiarizar-me com a interface do Console AWS e entender a navegação básica,
 ##  O que eu fiz
 
 ### 1. Login no Console
-- ✅ Acessei o Console AWS em https://console.aws.amazon.com
-- ✅ Explorei as diferentes regiões disponíveis no seletor superior direito
-- ✅ Entendi o conceito de Availability Zones e sua importância para alta disponibilidade
-- ✅ Verifiquei minha região padrão (recomendado: **us-east-1** para Free Tier)
+-  Acessei o Console AWS em https://console.aws.amazon.com
+-  Explorei as diferentes regiões disponíveis no seletor superior direito
+-  Entendi o conceito de Availability Zones e sua importância para alta disponibilidade
+-  Verifiquei minha região padrão (recomendado: **us-east-1** para Free Tier)
 
 ### 2. Exploração dos Serviços
 
@@ -48,7 +48,7 @@ Naveguei pelos principais serviços AWS e entendi suas finalidades:
 
 ### 3. Conceitos Aprendidos
 
-#### 🌍 Regiões AWS
+####  Regiões AWS
 
 **O que são?**  
 Regiões são localizações geográficas físicas ao redor do mundo onde a AWS possui data centers. Atualmente existem **33 regiões** globalmente.
@@ -60,10 +60,10 @@ Regiões são localizações geográficas físicas ao redor do mundo onde a AWS 
 - **ap-southeast-1** (Singapura, Ásia) - para usuários asiáticos
 
 **Por que escolher uma região?**
-- ✅ **Latência:** Usuários no Brasil = escolher sa-east-1 (mais rápido)
-- ✅ **Compliance:** Leis como LGPD exigem dados no Brasil
-- ✅ **Custos:** Regiões diferentes = preços diferentes (us-east-1 geralmente mais barato)
-- ✅ **Disponibilidade de serviços:** Nem todos os serviços estão em todas as regiões
+-  **Latência:** Usuários no Brasil = escolher sa-east-1 (mais rápido)
+-  **Compliance:** Leis como LGPD exigem dados no Brasil
+-  **Custos:** Regiões diferentes = preços diferentes (us-east-1 geralmente mais barato)
+-  **Disponibilidade de serviços:** Nem todos os serviços estão em todas as regiões
 
 **Availability Zones (AZs):**
 - Cada região tem **múltiplas AZs** (mínimo 3)
@@ -155,13 +155,13 @@ Sistema de gerenciamento de permissões e acessos da AWS. É o "guarda de segura
 - Exemplo: Se o usuário só precisa ler S3, NÃO dar permissão de deletar
 
 **Boas Práticas IAM:**
-- ✅ Habilitar MFA na conta root
-- ✅ Criar usuários IAM individuais (não compartilhar credenciais)
-- ✅ Usar grupos para gerenciar permissões
-- ✅ Aplicar princípio do menor privilégio
-- ✅ Rotacionar credenciais regularmente
-- ✅ Usar roles para aplicações (EC2, Lambda, etc)
-- ✅ Monitorar atividades com CloudTrail
+-  Habilitar MFA na conta root
+-  Criar usuários IAM individuais (não compartilhar credenciais)
+-  Usar grupos para gerenciar permissões
+-  Aplicar princípio do menor privilégio
+-  Rotacionar credenciais regularmente
+-  Usar roles para aplicações (EC2, Lambda, etc)
+-  Monitorar atividades com CloudTrail
 
 ---
 
@@ -186,17 +186,17 @@ lab01-explorando-console/
 
 ---
 
-## ✅ Resultado
+##  Resultado
 
-✨ **Consegui navegar com confiança pelo console AWS e entender a estrutura básica dos principais serviços!**
+ **Consegui navegar com confiança pelo console AWS e entender a estrutura básica dos principais serviços!**
 
 **Checklist de Conquistas:**
-- [x] Entendi o que são Regiões e Availability Zones
-- [x] Explorei os 4 principais serviços (EC2, S3, RDS, VPC)
-- [x] Compreendi o funcionamento do Free Tier
-- [x] Aprendi conceitos fundamentais de IAM
-- [x] Localizei onde criar recursos em cada serviço
-- [x] Entendi a importância de MFA e segurança
+-  Entendi o que são Regiões e Availability Zones
+-  Explorei os 4 principais serviços (EC2, S3, RDS, VPC)
+-  Compreendi o funcionamento do Free Tier
+-  Aprendi conceitos fundamentais de IAM
+-  Localizei onde criar recursos em cada serviço
+-  Entendi a importância de MFA e segurança
 
 ---
 
@@ -230,38 +230,38 @@ lab01-explorando-console/
 
 ---
 
-## 🔗 Recursos utilizados
+##  Recursos utilizados
 
-- 🌐 [Console AWS](https://console.aws.amazon.com)
-- 📖 [Documentação Oficial AWS](https://docs.aws.amazon.com)
-- 🎓 [AWS Free Tier](https://aws.amazon.com/free)
-- 🔐 [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
-- 🌍 [Regiões e AZs](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
-- 📚 Material do curso AWS re/Start
+-  [Console AWS](https://console.aws.amazon.com)
+-  [Documentação Oficial AWS](https://docs.aws.amazon.com)
+-  [AWS Free Tier](https://aws.amazon.com/free)
+-  [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
+-  [Regiões e AZs](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
+-  Material do curso AWS re/Start
 
 ---
 
-## 💡 Próximos passos
+##  Próximos passos
 
 ### Lab 02: Criar Primeira Instância EC2
-- [ ] Criar EC2 t2.micro com Amazon Linux 2023
-- [ ] Configurar Security Group (SSH + HTTP)
-- [ ] Conectar via SSH
-- [ ] Instalar servidor web Apache
-- [ ] Testar acesso pelo navegador
+-  Criar EC2 t2.micro com Amazon Linux 2023
+-  Configurar Security Group (SSH + HTTP)
+-  Conectar via SSH
+-  Instalar servidor web Apache
+-  Testar acesso pelo navegador
 
 ### Lab 03: Configurar Bucket S3
-- [ ] Criar bucket S3
-- [ ] Fazer upload de arquivos
-- [ ] Configurar permissões públicas
-- [ ] Hospedar site estático
+-  Criar bucket S3
+-  Fazer upload de arquivos
+-  Configurar permissões públicas
+-  Hospedar site estático
 
 ### Lab 04: Explorar IAM na Prática
-- [ ] Criar usuário IAM
-- [ ] Criar grupo de desenvolvedores
-- [ ] Atribuir políticas
-- [ ] Habilitar MFA
-- [ ] Testar permissões
+-  Criar usuário IAM
+-  Criar grupo de desenvolvedores
+-  Atribuir políticas
+-  Habilitar MFA
+-  Testar permissões
 
 ---
 
@@ -280,14 +280,14 @@ lab01-explorando-console/
 **Longo Prazo (2-3 meses):**
 -  **AGENDAR PROVA AWS Cloud Practitioner**
 - Construir projeto completo documentado no GitHub
-- Conseguir a certificação! 🏆
+- Conseguir a certificação! 
 
 ---
 
-**Status:** ✅ Concluído  
-**Dificuldade:** ⭐ Iniciante  
+**Status:**  Concluído  
+**Dificuldade:**  Iniciante  
 **Tempo gasto:** ~45 minutos  
-**Confiança:** 😊 Confortável com a interface
+**Confiança:**  Confortável com a interface
 
 ---
 
@@ -297,5 +297,5 @@ lab01-explorando-console/
 
 ---
 
-## 🏷️ Tags
+##  Tags
 `#AWS` `#CloudPractitioner` `#Console` `#IAM` `#FreeTier` `#Lab01` `#Fundamentos`
