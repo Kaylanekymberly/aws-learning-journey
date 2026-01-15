@@ -29,21 +29,21 @@ Demonstrar a capacidade de gerenciar recursos IAM via AWS CLI em ambiente Linux,
 
 
 
-## 🔒 Segurança da Informação (Best Practices)
+##  Segurança da Informação (Best Practices)
 
 Em conformidade com as melhores práticas de segurança em nuvem, **todos os dados sensíveis** nesta documentação foram **ofuscados**:
 
-- ✅ IDs de conta AWS
-- ✅ Chaves de acesso (Access Keys)
-- ✅ Chaves secretas (Secret Keys)
-- ✅ Endereços IP públicos e privados
-- ✅ ARNs completos
+-  IDs de conta AWS
+-  Chaves de acesso (Access Keys)
+-  Chaves secretas (Secret Keys)
+-  Endereços IP públicos e privados
+-  ARNs completos
 
 ---
 
 ##  Passo a Passo do Laboratório
 
-### Tarefa 1: Conexão Segura via SSH 🔐
+### Tarefa 1: Conexão Segura via SSH 
 
 **Objetivo**: Estabelecer conexão remota segura com a instância EC2.
 
@@ -63,7 +63,7 @@ chmod 400 labsuser.pem
 ssh -i labsuser.pem ec2-user@<PUBLIC_IP>
 ```
 
-#### Primeiro Desafio Encontrado ⚠️
+#### Primeiro Desafio Encontrado 
 
 Durante a primeira conexão, recebi o alerta de segurança do SSH sobre a autenticidade do host:
 
@@ -180,7 +180,7 @@ aws iam list-policies --scope Local | grep -A 5 "lab_policy"
 aws iam get-policy --policy-arn arn:aws:iam::XXXXXXXXXXXX:policy/lab_policy
 ```
 
-**Terceiro Desafio Encontrado** ⚠️: O comando acima retornava **metadados** da política, mas não o documento JSON em si.
+**Terceiro Desafio Encontrado** : O comando acima retornava **metadados** da política, mas não o documento JSON em si.
 
 **Aprendizado**: Aprendi que existem dois comandos distintos:
 - `get-policy` → retorna metadados (ARN, data de criação, versão)
@@ -207,7 +207,7 @@ O arquivo continha exatamente o mesmo JSON visualizado no Console! 🎉
 
 ---
 
-## ✅ Resultados e Conquistas
+##  Resultados e Conquistas
 
 ### Principais Aprendizados
 
@@ -290,7 +290,7 @@ Este laboratório faz parte do programa **AWS Academy Cloud Foundations**, prepa
 **Kaylane Kimberly**
 
  Entusiasta de Cloud Computing | Estudante AWS  
-🔗 [LinkedIn](https://www.linkedin.com/feed/) | 💼 [Portfolio](https://github.com/Kaylanekymberly/Kaylanekymberly) | 📧 [Email](kaylanekymberly123@gmail.com)
+ [LinkedIn](https://www.linkedin.com/feed/) |  [Portfolio](https://github.com/Kaylanekymberly/Kaylanekymberly) |  [Email](kaylanekymberly123@gmail.com)
 
 ---
 
@@ -304,7 +304,7 @@ Este laboratório faz parte do programa **AWS Academy Cloud Foundations**, prepa
 
 <div align="center">
 
-**⭐ Se este projeto te ajudou, considere dar uma estrela!**
+** Se este projeto te ajudou, considere dar uma estrela!**
 
 *Laboratório realizado em Dezembro de 2025*
 
