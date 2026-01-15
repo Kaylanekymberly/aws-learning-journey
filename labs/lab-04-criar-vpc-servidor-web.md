@@ -3,16 +3,16 @@
 ##  Objetivo do Laboratório
 
 Depois de concluir este laboratório, você deverá ser capaz de:
-* ✅ Criar uma Virtual Private Cloud (VPC)
-* ✅ Criar sub-redes públicas e privadas
-* ✅ Configurar tabelas de rotas
-* ✅ Configurar grupos de segurança
-* ✅ Iniciar uma instância Amazon EC2 dentro da VPC
-* ✅ Configurar um servidor web Apache
+*  Criar uma Virtual Private Cloud (VPC)
+*  Criar sub-redes públicas e privadas
+*  Configurar tabelas de rotas
+*  Configurar grupos de segurança
+*  Iniciar uma instância Amazon EC2 dentro da VPC
+*  Configurar um servidor web Apache
 
-**⏱️ Tempo de conclusão:** 1 hora  
-**📅 Data de conclusão:** 15/12/2025  
-**✨ Status:** ✅ Concluído
+** Tempo de conclusão:** 1 hora  
+** Data de conclusão:** 15/12/2025  
+** Status:**  Concluído
 
 ---
 
@@ -62,7 +62,7 @@ A arquitetura implementada inclui:
 2. O Console de Gerenciamento AWS abrirá em nova aba
 3. O sistema fará login automaticamente
 
-> 💡 **Dica:** Se o pop-up for bloqueado, clique no ícone de bloqueio no navegador e permita pop-ups.
+>  **Dica:** Se o pop-up for bloqueado, clique no ícone de bloqueio no navegador e permita pop-ups.
 
 ---
 
@@ -78,7 +78,7 @@ A arquitetura implementada inclui:
 
 **Configurações Gerais:**
 - **Recursos a serem criados:** VPC e muito mais
-- **Geração automática da etiqueta de nome:** ❌ Desmarcar
+- **Geração automática da etiqueta de nome:**  Desmarcar
 - **Etiqueta de nome:** `Lab VPC`
 - **IPv4 CIDR:** `10.0.0.0/16`
 - **IPv6 CIDR block:** Nenhum bloco CIDR IPv6
@@ -158,7 +158,7 @@ Agora vamos criar sub-redes em uma segunda Zona de Disponibilidade para **alta d
 4. Marque a caixa **Private Subnet 2**
 5. Clique em **Salvar associações**
 
-✅ **Sucesso!** Sua VPC agora tem sub-redes públicas e privadas em 2 Zonas de Disponibilidade!
+ **Sucesso!** Sua VPC agora tem sub-redes públicas e privadas em 2 Zonas de Disponibilidade!
 
 ---
 
@@ -236,7 +236,7 @@ echo "<p>Zona de Disponibilidade: $(ec2-metadata --availability-zone | cut -d ' 
 
 ---
 
-## ✅ Tarefa 7: Testar o Servidor Web
+##  Tarefa 7: Testar o Servidor Web
 
 ### Passo 7.1: Obter IP Público
 1. Vá para **Instâncias** no painel EC2
@@ -277,13 +277,13 @@ Para evitar custos, limpe os recursos:
 
 ##  Conceitos Aprendidos
 
-✅ **VPC (Virtual Private Cloud):** Rede virtual isolada na AWS  
-✅ **Sub-redes:** Divisões da VPC em redes menores  
-✅ **Internet Gateway:** Permite comunicação com a internet  
-✅ **NAT Gateway:** Permite instâncias privadas acessarem a internet  
-✅ **Tabelas de Rotas:** Definem como o tráfego é direcionado  
-✅ **Security Groups:** Firewall virtual para instâncias  
-✅ **Alta Disponibilidade:** Recursos em múltiplas AZs  
+ **VPC (Virtual Private Cloud):** Rede virtual isolada na AWS  
+ **Sub-redes:** Divisões da VPC em redes menores  
+ **Internet Gateway:** Permite comunicação com a internet  
+ **NAT Gateway:** Permite instâncias privadas acessarem a internet  
+ **Tabelas de Rotas:** Definem como o tráfego é direcionado  
+ **Security Groups:** Firewall virtual para instâncias  
+ **Alta Disponibilidade:** Recursos em múltiplas AZs  
 
 ---
 
@@ -301,15 +301,15 @@ Durante este laboratório, aprendi que:
 
 ##  Próximos Passos
 
-- [ ] Implementar Auto Scaling
-- [ ] Adicionar Load Balancer
-- [ ] Configurar múltiplas instâncias
-- [ ] Implementar bastion host
-- [ ] Adicionar RDS na sub-rede privada
+-  Implementar Auto Scaling
+-  Adicionar Load Balancer
+-  Configurar múltiplas instâncias
+-  Implementar bastion host
+-  Adicionar RDS na sub-rede privada
 
 ---
 
-## 🔗 Recursos Úteis
+##  Recursos Úteis
 
 - [Documentação Amazon VPC](https://docs.aws.amazon.com/vpc/)
 - [Documentação Amazon EC2](https://docs.aws.amazon.com/ec2/)
