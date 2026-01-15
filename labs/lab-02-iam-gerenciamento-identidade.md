@@ -1,6 +1,6 @@
 # Lab 02 - Introdução ao IAM (Identity and Access Management)
 
-## 📌 Descrição do Laboratório
+##  Descrição do Laboratório
 Neste laboratório, explorei os fundamentos do gerenciamento de identidades na AWS. O objetivo foi aplicar o **Princípio do Menor Privilégio (PoLP)**, garantindo que usuários tenham apenas as permissões necessárias para realizar suas tarefas.
 
 ##  Recursos Utilizados
@@ -22,13 +22,13 @@ Neste laboratório, explorei os fundamentos do gerenciamento de identidades na A
 
 ### 3. Teste de Acesso (Verificação)
 * Fiz login com o `usuario-teste`.
-* Tentei visualizar instâncias EC2 (Sucesso ✅).
-* Tentei criar um novo bucket S3 (Erro de Permissão Negada ❌ - Conforme esperado).
+* Tentei visualizar instâncias EC2 (Sucesso ).
+* Tentei criar um novo bucket S3 (Erro de Permissão Negada  - Conforme esperado).
 
 ##  Conceitos Chave Aprendidos
 * **Root User vs IAM User:** Nunca usar o usuário raiz para tarefas diárias.
 * **Políticas JSON:** Como a AWS lê permissões (Allow/Deny).
 * **Segurança:** A importância de habilitar MFA (Multi-Factor Authentication).
 
-## 🔗 Links Úteis
+##  Links Úteis
 * [Documentação Oficial do IAM](https://docs.aws.amazon.com/pt_br/iam/)
