@@ -200,7 +200,7 @@ lab01-explorando-console/
 
 ---
 
-## 📚 O que aprendi
+##  O que aprendi
 
 ### Principais Descobertas:
 
