@@ -1,6 +1,6 @@
 # Lab 01: Explorando o Console AWS
 
-## 📅 Data
+##  Data
 09 de Dezembro de 2025
 
 ##  Objetivo
