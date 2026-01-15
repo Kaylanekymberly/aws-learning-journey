@@ -2,7 +2,7 @@
 
 Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 
-## 📝 Lista de Labs
+##  Lista de Labs
 
 | # | Nome do Lab | Data | Status |
 | :--- | :--- | :--- | :--- |
@@ -14,4 +14,4 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 06| AWS CLI e IAM          | 10/01/2026] | ✅ Concluído |
 | 07| S3 Static Website | 10/01/2026 | ✅ Concluído |
 
-💡 Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
+ Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
