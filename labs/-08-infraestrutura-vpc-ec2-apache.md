@@ -228,17 +228,6 @@ sudo chmod 644 /var/www/html/projects.html
 
 > ⚠️ **Importante**: Digite o endereço **manualmente** usando `http://` (não `https://`). Navegadores modernos podem adicionar `https://` automaticamente, o que causará erro de conexão.
 
-### 7.2 Capturar Log do Sistema
-
-Para documentação técnica:
-
-1. No console EC2, selecione a instância
-2. Clique em **Ações > Monitoramento e solução de problemas**
-3. Selecione **Obter log do sistema**
-4. Capture o screenshot para documentação
-
----
-
 ## Comandos de Verificação
 
 ### Verificar Status dos Serviços
