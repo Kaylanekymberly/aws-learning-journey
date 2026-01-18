@@ -1,4 +1,3 @@
-
 #  Elastic Load Balancing e Auto Scaling
 
 ## Informações do Laboratório
@@ -12,8 +11,6 @@
 | **Plataforma** | AWS Academy |
 | **Serviços AWS** | ELB, EC2 Auto Scaling, CloudWatch, AMI |
 | **Ferramentas** | AWS Console, AWS CLI |
-
----
 
 ## Objetivos do Laboratório
 
@@ -552,7 +549,7 @@ aws ec2 describe-images \
 
 | Métrica | Valor |
 |---------|-------|
-| Tempo total de execução | ~3 horas |
+| Tempo total de execução | 1 horas |
 | AMIs criadas | 2 (Console + CLI) |
 | Instâncias em execução | 2-4 (dinâmico) |
 | Zonas de disponibilidade | 2 |
@@ -560,7 +557,6 @@ aws ec2 describe-images \
 | Testes realizados | 3 |
 | Taxa de sucesso | 100% |
 
----
 
 ## Conhecimentos Adquiridos
 
@@ -815,21 +811,6 @@ Os conhecimentos adquiridos sobre balanceamento de carga, dimensionamento autom�
 
 A experiência hands-on com AWS CLI no desafio opcional reforçou a importância da automação e do Infrastructure as Code, competências cada vez mais valorizadas no mercado.
 
----
-
-## Evidências
-
-*Inserir prints de tela quando disponível:*
-
-- Dashboard do Application Load Balancer
-- Auto Scaling Group com instâncias em execução
-- Target Group mostrando healthy targets
-- CloudWatch Alarms configurados
-- Teste de carga e scaling automático
-- AMI criada via CLI
-- Gráficos de métricas do CloudWatch
-
----
 
 **Laboratório realizado em:** [Data]  
 **Ambiente:** AWS Academy  
