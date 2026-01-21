@@ -1,1 +1,29 @@
+# Lab-AutoScaling-EC2-CLI
 
+Documentacao de Implementacao de Infraestrutura Escalavel na AWS.
+Laboratorio realizado em Dezembro de 2025.
+
+---
+
+## 1. Sobre o Projeto
+Este projeto demonstra a implementacao de um ambiente auto-escalavel utilizando a AWS CLI. 
+O objetivo e garantir disponibilidade e baixo custo.
+
+- Tempo estimado: 40 minutos.
+
+---
+
+## 2. Objetivos Principais
+- Criar Instancia EC2 base
+- Gerar AMI (Amazon Machine Image) personalizada
+- Configurar Launch Template
+- Criar Auto Scaling Group (ASG)
+- Configurar Politicas de Escalabilidade
+
+---
+
+## 3. Comandos Executados
+
+### Criar Instancia
+```bash
+aws ec2 run-instances --image-id ami-xxxxxxxxx --instance-type t2.micro --key-name MyKeyPair
