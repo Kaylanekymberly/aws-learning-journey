@@ -17,6 +17,6 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 09| Implementação de Infraestrutura Web com VPC e EC2 | 16/01/2026 | ✅ Concluído |
 | 10 | Elastic Load Balancing e Auto Scaling | 18/01/2026 | ✅ Concluído |
 | 11 | Implementação de Infraestrutura Web com VPC e EC2 | 19/01/2026 | ✅ Concluído |
-| 12 | [Route 53: Health Check e Roteamento de Failover](./lab-12-route53-failover/) | 18/01/2026 | ✅ Concluído |
+| 12 | [Route 53: Health Check e Roteamento de Failover | 18/01/2026 | ✅ Concluído |
 
  Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
