@@ -262,6 +262,7 @@ O laboratório foi concluído com êxito, demonstrando proficiência em todos os
 ---
 
 **Documento preparado por:** Kaylane Kimberly Da Silva Martins 
+
 **Função:** Documentadora Técnica  
 **Data:** 26 de janeiro de 2026  
 **Versão:** 1.0
