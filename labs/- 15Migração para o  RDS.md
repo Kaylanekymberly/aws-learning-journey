@@ -7,20 +7,6 @@
 
 Documentação profissional de laboratório prático baseado no curso **AWS Academy Cloud Foundations** que demonstra a migração de um banco de dados MariaDB de uma instância EC2 para o Amazon RDS (Relational Database Service).
 
-##  Índice
-
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Objetivos de Aprendizado](#-objetivos-de-aprendizado)
-- [Pré-requisitos](#-pré-requisitos)
-- [Arquitetura](#-arquitetura)
-- [Implementação](#-implementação)
-- [Como Reproduzir](#-como-reproduzir)
-- [Resultados](#-resultados-obtidos)
-- [Lições Aprendidas](#-lições-aprendidas)
-- [Troubleshooting](#-troubleshooting)
-- [Estimativa de Custos](#-estimativa-de-custos)
-- [Licença e Direitos Autorais](#-licença-e-direitos-autorais)
-
 ##  Sobre o Projeto
 
 Este projeto documenta a implementação prática de um laboratório do **AWS Academy Cloud Foundations**, focado em migração de banco de dados e boas práticas de arquitetura em nuvem.
@@ -36,11 +22,11 @@ O laboratório original foi desenvolvido pela Amazon Web Services como parte do 
 ### Contribuição desta Documentação
 
 Esta documentação expande o laboratório original com:
-- ✅ Scripts automatizados em Bash para reprodução
-- ✅ Guia detalhado de troubleshooting
-- ✅ Boas práticas de segurança (senhas via variáveis de ambiente)
-- ✅ Análise de custos e otimizações
-- ✅ Exemplos práticos de comandos AWS CLI
+-  Scripts automatizados em Bash para reprodução
+-  Guia detalhado de troubleshooting
+-  Boas práticas de segurança (senhas via variáveis de ambiente)
+-  Análise de custos e otimizações
+-  Exemplos práticos de comandos AWS CLI
 
 ##  Objetivos de Aprendizado
 
@@ -481,17 +467,6 @@ chmod +x scripts/*.sh
 | **Downtime da aplicação** | < 2 minutos (tempo de restart) |
 | **Integridade de dados** | 100% (validado com queries) |
 | **Conectividade RDS** |  Confirmada via CloudWatch |
-
-### Capturas de Tela
-
-#### Validação da Migração (Terminal)
-![Query de validação no RDS](img/terminal-query.png)
-
-#### Monitoramento CloudWatch
-![Métricas de conexão](img/cloudwatch-metrics.png)
-
-#### Parameter Store Atualizado
-![Configuração do endpoint](img/parameter-store.png)
 
 ### Benefícios Alcançados
 
