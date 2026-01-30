@@ -20,5 +20,6 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 12 | [Route 53: Health Check e Roteamento de Failover | 18/01/2026 | ✅ Concluído |
 | 13 | Pipeline de Contagem de Palavras com S3, Lambda e SNS | 27/01/2026 | ✅ Concluído |
 | 14 | Automação Serverless com Lambda, IAM e CloudWatch | 24/01/2026 | ✅ Concluído |
+| 15 | Migração para o Amazon RDS | 30/01/2026 | ✅ Concluído |
 
  Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
