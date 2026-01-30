@@ -724,7 +724,7 @@ Este repositório é disponibilizado para fins **educacionais e de portfólio** 
 
 **Kaylane Kimberly**
 
--  LinkedIn: [linkedin.com/in/seu-perfil](https://linkedin.com/in/seu-perfil)
+-  LinkedIn: [linkedin.com/in/seu-perfil](https://www.linkedin.com/in/kaylane-kimberly-09a6ba25b/)
 -  Email: kaylanekymberly123@gmail.com
 
 
