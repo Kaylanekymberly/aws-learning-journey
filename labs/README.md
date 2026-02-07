@@ -22,5 +22,6 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 14 | Automação Serverless com Lambda, IAM e CloudWatch | 24/01/2026 | ✅ Concluído |
 | 15 | Migração para o Amazon RDS | 30/01/2026 | ✅ Concluído |
 | 16 | Segurança de Rede com VPC, NAT Gateway e Bastion Host | 03/02/2026 | ✅ Concluído |
+| 17 | Análise e Troubleshooting de Redes com VPC Flow Logs | 03/02/2026 | ✅ Concluído |
 
  Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
