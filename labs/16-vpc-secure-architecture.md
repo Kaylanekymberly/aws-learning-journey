@@ -348,6 +348,7 @@ O **Lab 16** consolida a habilidade de arquitetar redes seguras e gerenciar aces
 
 ##  Autor
 Kaylane Kimberly
+
 Desenvolvido como parte do programa de treinamento AWS Solutions Architect.
 
 **Status do Projeto:**  Concluído com Sucesso  
