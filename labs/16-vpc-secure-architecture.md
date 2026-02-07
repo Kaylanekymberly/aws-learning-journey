@@ -277,7 +277,7 @@ aws logs create-log-group --log-group-name /aws/ec2/bastion
 
 ---
 
-## 📊 Validação de Conectividade
+##  Validação de Conectividade
 
 ### Checklist de Testes
 
