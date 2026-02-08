@@ -1,5 +1,3 @@
-# aws-learning-journey
- Documentação da minha jornada de aprendizado em AWS Cloud
 # ☁️ AWS Learning Journey
 
 Documentação completa da minha jornada de aprendizado em **Amazon Web Services (AWS)**.
