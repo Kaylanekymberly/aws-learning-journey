@@ -288,6 +288,7 @@ Este projeto é disponibilizado para fins educacionais. O conteúdo é baseado e
 Documentação elaborada e organizada para facilitar o aprendizado e servir como referência para estudos de AWS.
 
 **Kaylane Kimberly**
+
 **Data de criação**: Fevereiro de 2026
 
 ---
