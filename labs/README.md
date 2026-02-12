@@ -27,5 +27,6 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 19 | Automação de Snapshots EBS e Sincronização S3 | 09/02/2026 | ✅ Concluído |
 | 20 | Desafio Prático: Gerenciamento e Acesso Público no Amazon S3 | 10/02/2026 | ✅ Concluído |
 | 21 | Automação de Notificações S3 e Integração SNS | 10/02/2026 | ✅ Concluído |
+| 22 |Infraestrutura de Monitoramento e Compliance (CloudWatch & AWS Config) | 11/02/2026 | ✅ Concluído |
 
  Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
