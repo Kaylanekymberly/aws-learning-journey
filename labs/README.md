@@ -29,5 +29,6 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 21 | Automação de Notificações S3 e Integração SNS | 10/02/2026 | ✅ Concluído |
 | 22 | Infraestrutura de Monitoramento e Compliance (CloudWatch & AWS Config) | 11/02/2026 | ✅ Concluído |
 | 24 | Auditoria e Forense com AWS CloudTrail e Athena | 14/02/2026 | ✅ Concluído |
+| 25 | Governança e Automação: Gerenciamento de Recursos com Marcação (Tags) | 13/02/2026 | ✅ Concluído |
 
  Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
