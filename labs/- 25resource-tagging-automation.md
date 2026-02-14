@@ -116,6 +116,7 @@ aws ec2 terminate-instances --instance-ids $UNTAGGED_IDS
 | **Automação** | Redução de erro humano ao gerenciar múltiplos recursos via script |
 | **Conformidade** | Capacidade de identificar e remover recursos não documentados |
 
+
 A marcação de recursos é uma das práticas mais simples e de maior impacto na gestão de ambientes AWS — especialmente em organizações com múltiplas equipes e projetos compartilhando a mesma conta.
 
 *Laboratório concluído com sucesso — Kaylane Kimberly, 14/02/2026*
