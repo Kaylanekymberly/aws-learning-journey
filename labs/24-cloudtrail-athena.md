@@ -1,4 +1,4 @@
-# 🔍 AWS CloudTrail — Investigação Forense de Segurança
+#  AWS CloudTrail — Investigação Forense de Segurança
 
 **Autora:** Kaylane Kimberly  
 **Data:** 14 de Fevereiro de 2026  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Visão Geral
+##  Visão Geral
 
 Investigação de uma violação de segurança no site da cafeteria **"Café"**, utilizando o **AWS CloudTrail** para auditar ações na conta, identificar alterações indevidas em Grupos de Segurança e rastrear a identidade do invasor.
 
@@ -19,7 +19,7 @@ Investigação de uma violação de segurança no site da cafeteria **"Café"**,
 
 ---
 
-## 🛠️ Execução das Tarefas
+##  Execução das Tarefas
 
 ### Tarefa 1 — Verificação de Integridade Inicial
 
@@ -42,7 +42,7 @@ Uso do `grep` para filtrar eventos específicos de forma rápida:
 grep "eventName" log_file.json | grep "Modify"
 ```
 
-> 💡 **Insight:** A CLI é ideal para buscas rápidas quando já conhecemos o padrão do evento a investigar.
+>  **Insight:** A CLI é ideal para buscas rápidas quando já conhecemos o padrão do evento a investigar.
 
 ---
 
@@ -70,7 +70,7 @@ O Athena permite tratar os logs do CloudTrail (JSON no S3) como tabelas SQL, sem
 
 ---
 
-## 💡 Considerações Finais
+##  Considerações Finais
 
 A segurança na nuvem não é apenas sobre **prevenir**, mas sobre ter **visibilidade total** das ações. Sem o CloudTrail habilitado, identificar o *"quem, quando e onde"* da invasão seria impossível.
 
@@ -78,7 +78,7 @@ A combinação **CloudTrail + Amazon Athena** forma um sistema de auditoria fore
 
 ---
 
-## ⚖️ Direitos Autorais
+##  Direitos Autorais
 
 - **AWS:** conteúdo original, cenários e arquitetura do laboratório são propriedade intelectual da **Amazon Web Services, Inc.** Esta documentação é um registro de execução prática de treinamento oficial AWS.
 - **Documentação:** análises e conclusões elaboradas por **Kaylane Kimberly**. Reprodução integral para fins comerciais não autorizada.
