@@ -3,7 +3,7 @@
 **Autora:** Kaylane Kimberly  
 **Data:** 14 de Fevereiro de 2026  
 **Tecnologias:** `AWS CLI` `Amazon EC2` `Bash` `PHP SDK` `VPC`  
-**Duração:** ~45 minutos
+**Duração:** 45 minutos
 
 > [!IMPORTANT]
 > **Direitos Autorais:**
