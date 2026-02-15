@@ -1,4 +1,4 @@
-#  Lab 25 | Governança e Automação: Gerenciamento de Recursos com Marcação (Tags)
+#  Lab 24 | Governança e Automação: Gerenciamento de Recursos com Marcação (Tags)
 
 **Autora:** Kaylane Kimberly  
 **Data:** 14 de Fevereiro de 2026  
