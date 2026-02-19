@@ -32,4 +32,5 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 24 | Governança e Automação: Gerenciamento de Recursos com Marcação (Tags) | 13/02/2026 | ✅ Concluído |
 | 25 | Otimização de Recursos e Eficiência de Custos | 14/02/2026 | ✅ Concluído |
 | 26 | Solução de Problemas e Debugging no AWS CloudFormation | 17/02/2026 | ✅ Concluído |
+
  Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
