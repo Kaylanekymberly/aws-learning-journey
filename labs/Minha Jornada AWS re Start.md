@@ -177,18 +177,6 @@ Obrigada por cada orientação, por cada empurrão nos momentos de dúvida e por
 
 ---
 
-##  Próximos Passos
-
-A conclusão do AWS re/Start é o começo de uma jornada ainda maior. Os próximos horizontes incluem:
-
--  Certificação **AWS Certified Cloud Practitioner (CLF-C02)**
--  Certificação **AWS Certified Solutions Architect – Associate (SAA-C03)**
--  Aprofundamento em **DevOps e CI/CD na AWS**
--  Projetos práticos com **Machine Learning na AWS**
--  Contribuição com a **comunidade técnica** continuando a documentar e compartilhar
-
----
-
 <div align="center">
 
 ---
