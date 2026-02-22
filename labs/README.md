@@ -33,5 +33,6 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 25 | Otimização de Recursos e Eficiência de Custos | 14/02/2026 | ✅ Concluído |
 | 26 | Solução de Problemas e Debugging no AWS CloudFormation | 17/02/2026 | ✅ Concluído |
 | 27 | Automação de Infraestrutura com AWS CloudFormation | 16/02/2026 | ✅ Concluído |
+| 28 | Infraestrutura como Código com VPC e EC2 via CloudFormation | 21/02/2026 | ✅ Concluído |
 
  Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
