@@ -37,3 +37,26 @@ Aqui documento todos os labs práticos que realizo durante meu aprendizado.
 | 29 | Modelo de Machine Learning com Amazon SageMaker e XGBoost| 22/02/2026 | ✅ Concluído |
 
  Cada lab é documentado em arquivo separado com prints e explicações detalhadas.
+ ---
+
+##  Encerrando a Jornada
+
+Quando realizei o primeiro laboratório desta trilha, não o documentei. Achei que não teria relevância para ninguém.
+
+Mas já no **segundo laboratório**, tomei uma decisão: documentaria tudo. E foi a melhor decisão que poderia ter tomado.
+
+A cada lab escrito, eu precisava entender profundamente o que havia feito, organizar o raciocínio e comunicar com clareza. Sem perceber, estava desenvolvendo habilidades que vão muito além da nuvem: **escrita técnica**, **pensamento estruturado**, **consistência** e **disciplina**.
+
+E ao compartilhar esses registros, percebi que não estava apenas me desenvolvendo — estava **ajudando outras pessoas** que estavam começando a mesma jornada.
+
+Hoje, com imenso prazer e orgulho, finalizo **todas as atividades do programa AWS re/Start**, guiada pela mentoria de dois excelentes profissionais:
+
+>  **@** *(Suziane Valentim Fonseca)*  
+>  **@** *(Rubens Almeida)*
+
+A vocês: muito obrigada por todo o apoio e suporte. Essa conquista também é de vocês. 💜
+
+---
+
+*Documentação produzida por **Kaylane Kimberly** como registro de execução prática do programa AWS re/Start.*  
+*Os cenários e arquiteturas originais são propriedade intelectual da **Amazon Web Services, Inc.***
