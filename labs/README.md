@@ -55,7 +55,8 @@ Hoje, com imenso prazer e orgulho, finalizo **todas as atividades do programa AW
 >  **@** *(Rubens Almeida)*
 
 A vocês: muito obrigada por todo o apoio e suporte. Essa conquista também é de vocês. 💜
- **Leia o registro completo da minha jornada aqui** (https://github.com/Kaylanekymberly/aws-learning-journey/blob/main/labs/Minha%20Jornada%20AWS%20re%20Start.md)
+
+[**Minha Jornada AWS re/Start**](https://github.com/Kaylanekymberly/aws-learning-journey/blob/main/labs/Minha%20Jornada%20AWS%20re%20Start.md)
 
 ---
 
