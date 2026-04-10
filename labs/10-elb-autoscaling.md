@@ -812,9 +812,9 @@ Os conhecimentos adquiridos sobre balanceamento de carga, dimensionamento autom�
 A experiência hands-on com AWS CLI no desafio opcional reforçou a importância da automação e do Infrastructure as Code, competências cada vez mais valorizadas no mercado.
 
 
-**Laboratório realizado em:** [Data]  
+**Laboratório realizado** 
 **Ambiente:** AWS Academy  
-**Documentado por:** [Seu Nome]  
+**Documentado por:** Kaylane Kimberly
 
 ---
 
